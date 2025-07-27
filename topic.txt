@@ -1,0 +1,8 @@
+`/bin/kafka-topics --create --topic my_topic --bootstrap-server localhost:9092 --partitions 2 --replication-factor 2`
+
+```
+Topic: my_topic TopicId: Syr8pJAHS1aQgOjJ_-L-Qw PartitionCount: 3       ReplicationFactor: 2    Configs:
+        Topic: my_topic Partition: 0    Leader: 1       Replicas: 1,3   Isr: 1,3
+        Topic: my_topic Partition: 1    Leader: 2       Replicas: 2,1   Isr: 1,2
+        Topic: my_topic Partition: 2    Leader: 3       Replicas: 3,2   Isr: 3,2
+```
